@@ -1,0 +1,33 @@
+{% extends 'layout.html' %} {% block body %}
+
+<div class="row">
+  <div class="col-5 mx-auto">
+    <h3>CADASTRE</h3>
+    <hr />
+    <form method="post" id="addtarefa" action="{{url_for('add_tarefa')}}">
+      <fieldset class="form-group">
+        <label>Titulo</label>
+        <input type="text" name="titulo" required class="form-control" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label>Descrição</label>
+        <input type="text" name="descricao" required class="form-control" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label>Data</label>
+        <input type="text" name="data" required class="form-control" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label>Status</label>
+        <select name="status" class="form-control">
+          <option value="Pendente">Pendente</option>
+          <option value="Executando">Executando</option>
+          <option value="Concluida">Concluída</option>
+        </select>
+      </fieldset>
+      <input type="submit" value="Adicionar" class="btn btn-primary" />
+    </form>
+  </div>
+</div>
+
+{% endblock %}
