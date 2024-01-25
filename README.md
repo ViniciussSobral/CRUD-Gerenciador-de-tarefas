@@ -35,6 +35,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 ## Preview
 
-![teste011](https://github.com/ViniciussSobral/CRUD/assets/151795536/15584115-9e82-434c-9e77-209effd50854)
+![teste011](https://github.com/ViniciussSobral/CRUD-Gerenciador-de-tarefas/assets/151795536/72b28f09-d085-4603-b5a9-5ba4af857c79)
 
-![teste02](https://github.com/ViniciussSobral/CRUD/assets/151795536/3b080a2e-2dfe-4224-a17c-0def04bc4c43)
+![teste02](https://github.com/ViniciussSobral/CRUD-Gerenciador-de-tarefas/assets/151795536/ab6cc713-1b6e-411f-8f53-26cfd0d5c6f0)
+
