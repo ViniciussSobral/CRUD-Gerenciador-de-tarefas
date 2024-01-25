@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 import sqlite3 as sql
 
 app=Flask(__name__)
+app.secret_key="admin"
 
 @app.route("/")
 @app.route("/index")
@@ -59,7 +60,7 @@ def delete_tarefa(id):
     flash("Dados deletados","warning")
     return redirect(url_for("index"))
 if __name__=='__main__':
-    app.secret_key="admin"
+    
     app.run(debug=True)
 
 
